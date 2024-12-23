@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, gray, white);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+header .left-side {
+    display: flex;
+}
+header, .right-side .nav-link-wrapper a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: blink;
+    color: ThreeDDarkShadow;
+}
+
+header .right-side {
+    display: flex;
+
+}
+
+header .left-side a img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color:black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.producto {
+    border: 5px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
